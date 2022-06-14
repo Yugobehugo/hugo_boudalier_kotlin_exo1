@@ -26,28 +26,27 @@
         android:radius="10dp">
 
 
-
-
-
         <Button
             android:id="@+id/button2"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/red"
-            android:text=" Sign in with Google+ "
+            android:paddingTop="15dp"
             android:paddingBottom="15dp"
-            android:paddingTop="15dp"/>
+            android:text=" Sign in with Google+ "
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/blue"
-            android:text=" Sign in with Twitter "
+            android:paddingTop="15dp"
             android:paddingBottom="15dp"
-            android:paddingTop="15dp"/>
+            android:text=" Sign in with Twitter "
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/button4"
@@ -57,7 +56,8 @@
             android:backgroundTint="@color/violet"
             android:text=" Sign in with Facebook "
             android:paddingBottom="15dp"
-            android:paddingTop="15dp"/>
+            android:paddingTop="15dp"
+            android:textAllCaps="false"/>
     </LinearLayout>
 
 
